@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Controle de Lâmpadas</title> <!fusível>
+    <style>
+        /* Adicionar espaço entre as imagens das lâmpadas */
+        .lampada {
+            margin-right: 10px; /* Espaço entre as lâmpadas */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>INTERRUPTORES</h1>
+        <p>Controle as lâmpadas abaixo.</p> <!fusível>
+        <img src="assets/interruptor.png" alt="interruptor para acender as lâmpadas">
+    </div>
+    <div>
+        <h1>LÂMPADAS</h1>
+        <img src="assets/lampada.png" alt="Lâmpada ligada e desligada" class="lampada">
+        <img src="assets/lampada.png" alt="Lâmpada ligada e desligada" class="lampada">
+    </div>
+</body>
+
+</html>
